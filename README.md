@@ -44,13 +44,21 @@
 
 
 ├── index.html          # 主页面
+
 ├── contact.html        # 联系方式页面
+
 ├── project.html        # 项目展示页面
+
 ├── reading.html        # 阅读笔记页面
+
 ├── images/             # 图片资源目录
+
 │   ├── icon.png        # 网站图标
+
 │   └── index-02.jpg    # 个人图片
+
 ├── main.css            # 主样式表
+
 └── font-awesome/       # 图标库
 
 
