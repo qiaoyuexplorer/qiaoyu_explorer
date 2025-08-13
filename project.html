@@ -45,27 +45,91 @@
                     <div id="subtitle">包括论文和自学的技术项目，但其中不含无应用价值的论文（为了写论文而写的论文）</div>
                 </div>
 
-                <h2>个人博客网站 2025年8月12日</h2>
+                <h2>具身智能小车系统 2025年8月13日</h2>
                 <div id="text-img-container">
-                    <div id="img-container">
-                        <img src="./images/project-01.jpg" alt="" width="280px"/></div>
-                    <div id="text-container"><h2>********************************************************.</h2>
-                        <p>简介：*****************************************************.</p>
-                        <p>Github：<a href="https://www.baidu.com">链接</a></p>
-                        <p>演示视频：<a href="https://www.baidu.com">链接</a></p>
-                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore()">查看更多</button>
-                        <div id="more-content" class="hidden-content">
+                    <div id="text-container">
+                        <p>简介：基于STM32和AI技术的智能运输系统，具备自主导航、指令交互和智能决策能力。</p>
+                        <p>Github（硬件代码）：<a
+                                href="https://github.com/qiaoyuexplorer/Embedded-Code-for-Embodied-Intelligent-Transport-Vehicle">链接</a>
+                        </p>
+                        <p>Github（软件代码）：<a
+                                href="https://github.com/qiaoyuexplorer/-Embodied-Intelligent-Transport-Vehicle-LLM-Server">链接</a>
+                        </p>
+                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore('more-content-car')">查看更多</button>
+                        <div id="more-content-car" class="hidden-content">
                             <div class="content-box">
-                                <p>****</p>
+                                <p>具身智能小车技术方案</p>
                                 <ul>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
+                                    <li>硬件系统</li>
+                                    <p>STM32F103C8T6主控、ESP8266 WiFi模块、L298N电机驱动、超声波传感器</p>
+                                    <li>软件系统</li>
+                                    <p>Ollama本地部署deepseek-r1:7b模型、阿里百炼qwen-plus API、TCP socket通信</p>
+                                    <li>核心技术</li>
+                                    <p>字符串正则化处理、数据结构优化、多传感器数据融合</p>
+                                    <li>主要功能</li>
+                                    <p>指令识别识别、自主路径规划、智能决策</p>
+                                    <li>应用场景</li>
+                                    <p>教育科研、家庭服务、物流运输、环境监测</p>
+                                    <li>部署流程</li>
+                                    <p>1. 硬件连接与测试<br>
+                                        2. 软件环境配置<br>
+                                        3. 模型部署与调试<br>
+                                        4. 系统集成与优化</p>
+                                    <li>未来升级</li>
+                                    <p>1. 增加5G通信模块<br>
+                                        2. 强化学习算法优化<br>
+                                        3. 多机协作系统开发</p>
+                                    <li>联系方式</li>
+                                    <p>内容更新：如有任何问题或建议，请联系：qiaoyu_explorer@163.com</p>
                                 </ul>
                                 <p>*****</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>LLM Web UI 项目 2025年8月13日</h2>
+                <div id="text-img-container">
+                    <div id="img-container">
+                        <img src="./images/project-02-web_ui.png" alt="" width="280px"/>
+                    </div>
+                    <div id="text-container">
+                        <p>简介：基于大型语言模型(LLM)的Web用户界面项目，提供与多个AI平台的交互接口。</p>
+                        <p>Github：<a href="https://github.com/qiaoyuexplorer/LLM_local_deployment">链接</a></p>
+                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore('more-content-LLM-UI')">查看更多</button>
+                        <div id="more-content-LLM-UI" class="hidden-content">
+                            <div class="content-box">
+                                <p>LLM Web UI 技术方案</p>
+                                <ul>
+                                    <li>项目结构</li>
+                                    <p>web-ui/<br>
+                                        ├── Allama-deepseek.py<br>
+                                        ├── API-Alibailian.py<br>
+                                        └── API-PPIO.py</p>
+                                    <li>核心功能</li>
+                                    <p>• Allama/Deepseek模型交互<br>
+                                        • Alibailian API接口调用<br>
+                                        • PPIO平台API集成</p>
+                                    <li>技术特性</li>
+                                    <p>• 多平台API统一封装<br>
+                                        • 模块化脚本设计<br>
+                                        • 灵活的配置选项</p>
+                                    <li>使用说明</li>
+                                    <p>1. 克隆或下载本项目<br>
+                                        2. 安装Python 3.x环境<br>
+                                        3. 安装依赖包<br>
+                                        4. 运行目标脚本</p>
+                                    <li>环境要求</li>
+                                    <p>• Python 3.x<br>
+                                        • requests库<br>
+                                        • 各平台SDK</p>
+                                    <li>注意事项</li>
+                                    <p>• 需预先获取API访问密钥<br>
+                                        • 敏感信息请勿上传公开仓库<br>
+                                        • 建议使用虚拟环境</p>
+                                    <li>联系方式</li>
+                                    <p>技术支持：qiaoyu_explorer@163.com</p>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -74,54 +138,42 @@
                 <h2>个人博客网站 2025年8月12日</h2>
                 <div id="text-img-container">
                     <div id="img-container">
-                        <img src="./images/project-01.jpg" alt="" width="280px"/></div>
-                    <div id="text-container"><h2>********************************************************.</h2>
-                        <p>简介：*****************************************************.</p>
-                        <p>Github：<a href="https://www.baidu.com">链接</a></p>
-                        <p>演示视频：<a href="https://www.baidu.com">链接</a></p>
-                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore()">查看更多</button>
-                        <div id="more-content" class="hidden-content">
+                        <img src="./images/project-01-web.png" alt="" width="280px"/>
+                    </div>
+                    <div id="text-container">
+                        <!--                        <h2>********************************************************.</h2>-->
+                        <p>简介：个人网站，展示了个人简介、项目作品和阅读笔记等内容。网站采用响应式设计，适配不同设备屏幕。</p>
+                        <p>网址：<a href="https://qiaoyuexplorer.github.io/qiaoyu_explorer/">链接</a></p>
+                        <p>Github：<a href="https://github.com/qiaoyuexplorer/qiaoyu_explorer">链接</a></p>
+                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore('more-content-qiaoyu-web')">查看更多</button>
+                        <div id="more-content-qiaoyu-web" class="hidden-content">
                             <div class="content-box">
-                                <p>****</p>
+                                <p>约翰乔先生个人网页</p>
                                 <ul>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
+                                    <li>前端技术</li>
+                                    <p>XHTML 1.1标准、CSS样式表、JavaScript交互功能</p>
+                                    <li>响应式设计</li>
+                                    <p>适配桌面和移动设备、侧边栏菜单可折叠、自动调整布局</p>
+                                    <li>功能模块</li>
+                                    <p>主页介绍、项目展示、阅读笔记、联系方式</p>
+                                    <li>安装与使用</li>
+                                    <p>克隆或下载本项目</p>
+                                    <p>确保所有资源文件路径正确：CSS文件(main.css)、图片资源 (images/目录)</p>
+                                    <p>直接在浏览器中打开index.html即可访问</p>
+                                    <li>自定义修改</li>
+                                    <p>个人信息：修改index.html中的个人介绍内容、更新联系方式</p>
+                                    <p>样式调整：编辑main.css文件修改网站外观、调整布局和颜色方案</p>
+                                    <p>
+                                        内容更新：在project.html中添加新项目、在reading.html中添加新的阅读笔记直接在浏览器中打开index.html即可访问</p>
+                                    <li>联系方式</li>
+                                    <p>内容更新：如有任何问题或建议，请联系：qiaoyu_explorer@163.com</p>
                                 </ul>
-                                <p>*****</p>
+<!--                                <p>*****</p>-->
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <h2>个人博客网站 2025年8月12日</h2>
-                <div id="text-img-container">
-                    <div id="img-container">
-                        <img src="./images/project-01.jpg" alt="" width="280px"/></div>
-                    <div id="text-container"><h2>********************************************************.</h2>
-                        <p>简介：*****************************************************.</p>
-                        <p>Github：<a href="https://www.baidu.com">链接</a></p>
-                        <p>演示视频：<a href="https://www.baidu.com">链接</a></p>
-                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore()">查看更多</button>
-                        <div id="more-content" class="hidden-content">
-                            <div class="content-box">
-                                <p>****</p>
-                                <ul>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                    <li>***********</li>
-                                    <p>******************</p>
-                                </ul>
-                                <p>*****</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
             <div id="footer-container">
@@ -137,8 +189,8 @@
     </div>
 </div>
 <script>
-    function toggleMore() {
-        const moreContent = document.getElementById('more-content');
+    function toggleMore(project_div_name) {
+        const moreContent = document.getElementById(project_div_name);
         const btn = document.getElementById('toggle-btn');
 
         if (moreContent.classList.contains('hidden-content')) {
@@ -151,6 +203,7 @@
             btn.textContent = '查看更多';
         }
     }
+
     function openNav() {
         if (window.innerWidth <= 1200) {
             document.getElementById("layout-menu").style.width = "280px";
@@ -266,7 +319,7 @@
         border-radius: 8px;
         padding: 15px;
         background-color: #f9f9f9;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
 
     .content-box ul {

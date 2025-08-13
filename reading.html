@@ -47,15 +47,10 @@
 
                 <h2>贫穷的理解 2025年8月12日</h2>
                 <div id="text-img-container">
-<!--                    <div id="img-container">-->
-<!--                        <img src="./images/project-01.jpg" alt="" width="280px"/></div>-->
                     <div id="text-container">
-<!--                        <h2>********************************************************.</h2>-->
                         <p>简介：“穷人跨越阶级很难，而且大概率越来越难”，这个结论应该有非常多的论据支撑，尤其是个人在经历过生活的锤击后，更是深刻体会到命运的不公和奋斗的艰辛。</p>
-<!--                        <p>Github：<a href="https://www.baidu.com">链接</a></p>-->
-<!--                        <p>演示视频：<a href="https://www.baidu.com">链接</a></p>-->
-                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore()">查看更多</button>
-                        <div id="more-content" class="hidden-content">
+                        <button id="toggle-btn" class="toggle-button" onclick="toggleMore('more-content-poor')">查看更多</button>
+                        <div id="more-content-poor" class="hidden-content">
                             <div class="content-box">
                                 <p>穷人跨越阶级很难，而且大概率越来越难”，这个结论应该有非常多的论据支撑，尤其是我个人在经历过生活的锤击后，更是深刻体会到命运的不公和奋斗的艰辛。</p>
                                 <p>但是，这并不是一个无解的题。按照财富分配的规律，这个社会的大多数人都是穷人，穷是人生的大概率事件，只是穷的程度不同而已。人是会成长的。在持续努力和经历不断丰富的情况下，人是会自我觉醒的，原生家庭的负面影响不仅可以消除，甚至可能带来正面影响。当然，自我觉醒是小概率事件，因为持续努力就是小概率事件。很多人失败的原因其实非常简单，就是不够努力，其程度根本用不着拼家庭、拼天赋、拼运气。一身的垃圾习惯和负面认知基本决定了，不仅自己无法跨越阶级，其后代大概率也无法跨越阶级。</p>
@@ -84,8 +79,8 @@
     </div>
 </div>
 <script>
-    function toggleMore() {
-        const moreContent = document.getElementById('more-content');
+    function toggleMore(project_div_name) {
+        const moreContent = document.getElementById(project_div_name);
         const btn = document.getElementById('toggle-btn');
 
         if (moreContent.classList.contains('hidden-content')) {
